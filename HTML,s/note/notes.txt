@@ -1,0 +1,20 @@
+1.Std biodata update option needed-mobile number update or email
+
+2.Mobile number and email verified green tick button option before submition form-->parents +
+  std finger print 
+
+3.form submission conform option-->Generate std ID
+
+4.SMS and mail auto sent greeting sms with student id and wpp class group link
+
+5.With student id and std details form print out option with H.M sign 
+
+6.office login and login password-->Teachers zone,Std zone,Notice zone,Communition..  {DONE}
+
+7.std new admission form making with document pic uplode option within specific kb
+
+8.Help desk option--> Student complaint and help option and feedback also from school
+
+9.Brunch menu-->Brunch Password-->Office login-->Access....{DONE}
+
+10.Leaving certificate from  any brunch to main brunch and verify then issue 

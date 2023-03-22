@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-image:url('https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-purple-love.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.total_body{
+    display:flex;
+    /* flex-direction: column; */
+    width: 100vw;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    /* border:2px solid black; */
+    position:relative;
+    bottom:1.5vw;
+}
+
+
+.total_f{
+    height:75vh;
+    width:50vw;
+    /* border: 2px solid aqua; */
+    padding: 2.5vw;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: white;
+}
+.frm{
+    /* display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+    
+} 
+.all_inp{
+    border:none;
+    border-bottom: 2px solid silver;
+    margin: 4.5vh 0vw 4.5vh 0vw;
+}
+.short_inp{
+    width:45%;
+    margin-right:5%;
+}
+.big{
+    width:95%;
+}
+.btn{
+    height:10vh;
+    width:20vw;
+    border-radius: 80px;
+    background-color:#6236ff ;
+    color:white;
+    border:none;
+    cursor: pointer;
+}

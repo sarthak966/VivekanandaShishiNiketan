@@ -1,0 +1,133 @@
+@media(max-width:650px){
+*{
+    margin:0px;
+    padding:0px;
+}
+.all_sys{
+    display:flex;
+    /* padding:0vh 3vw 0vh 3vw; */
+    z-index: 1;
+}
+.fn1{
+    display:flex;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width:48vw;
+    
+}
+.fn1_li{
+    display:flex;
+    list-style: none;
+    margin:1.5vw 2vw 1.5vw 2vw;
+    /* background-color: blueviolet; */
+    /* position:relative; */
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    /* padding:0.1vw; */
+    overflow: hidden;
+    width:5vw;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    font-size: 0.5rem;
+    
+}
+.fn1_li:hover{
+    background-color: rgb(206, 11, 122);
+}
+
+.al11{
+    /* height:15vh; */
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: orange;
+    color: white;
+    font-size: 1.3rem;
+    
+}
+body{
+    background-image:url('jaredd-craig-HH4WBGNyltc-unsplash.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.contact{
+    display: flex;
+    height:80vh;
+    /* border: 2px solid black; */
+    width:25vw;
+    align-items: center;
+}
+
+
+.welcome{
+    text-decoration: underline;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(220, 158, 14) ;
+    border-radius: 0px 20px 1px 50px;
+    border:3.5px solid rgb(244, 110, 1);
+    height:25vh;
+    width:30vw;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    
+}
+.wel1{
+    font-size: 1.2rem;
+    color:rgb(0, 15, 145);
+    font-family: 'Unbounded', cursive;
+
+
+}
+.cntc_btn{
+    margin-top:6vh;
+    border:none;
+    background-color: rgb(206, 11, 122);
+    color:white;
+    height:5vh;
+    width:6vw;
+    border-radius: 0px 20px 1px 20px;
+    cursor:pointer;
+}
+
+.btns{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.im_btn{
+    margin:0px 2vw 0px 2vw;
+    border-radius:100px;
+    background-color: rgb(206, 11, 122) ;
+    border: none;
+    cursor:pointer;
+    width:2vw;
+}
+
+
+
+.ft1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#0165E1;
+    color:white;
+    width:auto;
+    margin-top: 1vw;
+    height: 13vh;
+}
+
+#sp1{
+    display:none;
+}
+
+}

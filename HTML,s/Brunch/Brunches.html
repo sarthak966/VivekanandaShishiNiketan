@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brunch Login</title>
+    <link rel="stylesheet" href="Brunches.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Unbounded:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+@keyframes shaking{
+    25%{
+        right:9px;
+    }
+    50%{
+        right:0px;
+    }
+    75%{
+        left:9px;
+    }
+    100%{
+        left:0px;
+    }
+    
+    
+}
+</style>
+</head>
+<body>
+<div class="f_i">
+ <div class="a_f">   
+  <div class="j_f">
+    <h2 class="head" style="display:flex;justify-content:center; align-items: center;">Brunch Login</h2>
+    <div class="all_inp" >
+    <input type="text" class="inp" placeholder="ID"  id="br_id"  autocomplete="off" style="outline:none; position:relative;"/><br/>
+    <div class="error_l"><p id="w_p" style="position:absolute;" ></p></div>
+    <input type="password" class="inp" placeholder="Password"  id="pass" autocomplete="off"/><br/>
+    <div class="error_l" style="display: flex; justify-content: center;"><p id="w_p2" style="position:relative;"></p></div>
+    <a href="#" id="log_link" ><button class="inp" id="otp" onclick="log()"><b>Login</b></button></a>
+</div>
+
+</div><br/>
+  <div style="display:flex; justify-content:center;width:21vw;">
+  <a href="#" class="subs">Forgot login info   </a>
+</div>
+</div>  
+<!-- <img src="https://www.nicepng.com/png/detail/637-6371342_teacher-and-students-png-clipart-teacher-education-teacher.png" alt="404 Image loding error" class="img1" width="0" height="270"> -->
+
+
+
+</div>
+
+</body>
+<script src="brunch_login.js"></script>
+   
+
+
+</html>

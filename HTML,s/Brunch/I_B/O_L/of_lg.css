@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url('https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-purple-love.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    font-family: sans-serif;
+    /* font-family: 'Unbounded', cursive; */
+    
+}
+
+
+.a_f{
+    height:80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.j_f{
+    background-color:#FFFDD0;
+    padding-bottom: 2vh;
+    width: 29vw;
+    border-radius: 10px;
+    height:45vh;
+    
+}
+
+.head{
+    color:rgb(4, 9, 101);
+    background-image:url('https://www.b3multimedia.ie/wp-content/uploads/2019/05/gradient-toxic.jpg');
+    height:8vh;
+    border-radius: 10px 10px 0px 0px;
+}
+
+form{
+    min-width: none;
+    max-width: 45vw;
+}
+
+.all_inp{
+    /* border:2px solid black; */
+    display:flex;
+    flex-direction:column; 
+    justify-content:center; 
+    align-items: center;
+    margin-top:5vh;
+}
+
+.inp{
+    margin-top:2vh;
+    width:70%;
+    height: 0.1vh;
+    padding: 1vw;
+    border-radius: 10px;
+    border:1px solid silver;
+    color:blue;
+    
+}
+#otp{
+    color:white;
+    background-color: rgb(249, 117, 41);
+    height:7vh;
+    width: 25vw;
+    border-radius: 50px;
+}
+
+#otp:hover{
+    background-color: rgb(154, 73, 26);
+}
+
+.subs{
+    color:white;
+}
+.img1{
+    position: absolute;
+    width:20vw;
+    left:78vw;
+    bottom:50vh;
+}
